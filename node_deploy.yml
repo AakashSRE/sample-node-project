@@ -1,5 +1,5 @@
 ---
-- name: stageserver
+- name: stageing
   hosts: stageserver
   become_user: root
   become: True
