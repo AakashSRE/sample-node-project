@@ -59,7 +59,7 @@
       args:
         chdir: "{{ dest_path }}"
     # Install all the necessary Node modules for the project,
-    # using 'npm'.
+    # using `npm`.
     - name: express ejs installation
       command: sudo npm install ejs --save
       args:
@@ -80,7 +80,7 @@
       register: pm2_status
       changed_when: false
     # Start the node server using "Foverer"
-    # The 'when' clause identifies if the server is already
+    # The `when` clause identifies if the server is already
     # running. If so, this task is skipped
     - name: Kill pm2 service
       command: pm2 kill
