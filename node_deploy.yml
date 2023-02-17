@@ -1,5 +1,5 @@
 ---
-- name: Staging server Deployment
+- name: stageserver
   hosts: stageserver
   become_user: root
   become: True
