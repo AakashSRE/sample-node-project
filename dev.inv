@@ -1,2 +1,2 @@
 [stageserver]
-172.31.32.175 ansible_user=ec2-user
+3.109.48.57ansible_user=ec2-user
