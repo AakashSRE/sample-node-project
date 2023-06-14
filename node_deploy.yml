@@ -5,7 +5,7 @@
   become: True
   vars:
     repo_path: aakash97/sreimage:{{DOCKER_TAG}}
-    dest_path: /home/ec2-user/{{DOCKER_TAG}}
+    dest_path: /home/ec2-user/nodejs
   tasks:
     # Install python pip
     - name: Install python pip
