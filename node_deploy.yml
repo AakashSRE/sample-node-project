@@ -32,7 +32,7 @@
     - name: Pull docker image
       docker_image:
         name: aakash97/sreimage
-        tag: "{{DOCKER_TAG}}"
+        tag: "{DOCKER_TAG}"
         source: pull
     #Create a Directory
     - name: create directory
