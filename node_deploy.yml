@@ -31,7 +31,7 @@
     #Pull Docker Image    
     - name: Pull docker image
       docker_image:
-        name: aakash97/nodeimage
+        name: aakash97/sreimage
         tag: "{{DOCKER_TAG}}"
         source: pull
     #Create a Directory
