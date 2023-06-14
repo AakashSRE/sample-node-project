@@ -14,7 +14,7 @@
         state: present
     # Install docker service 
     - name: Install docker
-      yum:
+      dnf:
         name: docker
         state: present
     # Start the docker service
