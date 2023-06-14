@@ -28,12 +28,6 @@
       pip:
         name: docker-py
         state: present
-    #Pull Docker Image    
-    - name: Pull docker image
-      docker_image:
-        name: aakash97/sreimage
-        tag: "{DOCKER_TAG}"
-        source: pull
     #Create a Directory
     - name: create directory
       file:
